@@ -1,0 +1,72 @@
+
+1.
+
+8 plus 8 for resize, 8 then 16 for resize, then 16. This adds up to
+56 time blocks. This is cool because it is almost constant time for
+large amounts of numbers being added to the array. I calculated it out
+and it becomes almost a constant time of 2 units or (1.986) which is O(1) when putting 4096 items
+into the dynamic array of 8. This is cool.
+
+2.
+
+8 + twenty eight 2's is the time units that are spent. Which is exactly the same time as before 56 
+time units. When putting in 4096 items though the time is still constant like above, but instead of 
+a constant 2 its a constant 4. Still big oh of one though.
+
+3. 
+
+If you have a capacity of 4 with 8 pushes and pops because N/2. Size does not matter in this case. If 
+push at max capacity then the array will have to double it self, then it will be half empty. Then if 
+you imidiatly pop after this it will be less than half so the array will shrink itself. So if you have 
+alternating pushes and pops when you first reach capacity then the big oh cost will be n squared. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aww I dont like notpad ;> ... : Taks tooo long. ?
+
+             For Duc Le
+                                                 .~))>>
+                                                .~)>>
+                 ? Extra Credit ?             .~))))>>>
+                                            .~))>>             ___
+                DrAgOn FoR SkYrIm!        .~))>>)))>>      .-~))>>  
+                                        .~)))))>>       .-~))>>)>
+                                      .~)))>>))))>>  .-~)>>)>
+                  )                 .~))>>))))>>  .-~)))))>>)>
+               ( )@@*)             //)>))))))  .-~))))>>)>
+             ).@(@@               //))>>))) .-~))>>)))))>>)>
+           (( @.@).              //))))) .-~)>>)))))>>)>
+         ))  )@@*.@@ )          //)>))) //))))))>>))))>>)>
+      ((  ((@@@.@@            |/))))) //)))))>>)))>>)>
+     )) @@*. )@@ )   (\_(\-\b  |))>)) //)))>>)))))))>>)> 				This one is not as good 
+   (( @@@(.@(@ .    _/`-`  ~|b |>))) //)>>)))))))>>)>					don't have enough time need another 
+    )* @@@ )@*     (¦?) (¦?)  /\b|))) //))))))>>))))>>					weekend. Just kidding. 
+  (( @. )@( @ .   _/       /  \b)) //))>>)))))>>>_._
+   )@@ (@@*)@@.  (6,   6) / ^  \b)//))))))>>)))>>   ~~-.
+   @   @@. @@@.*@_ ~^~^~, /\  ^  \b/)>>))))>>      _.     `,
+ ((@@ @@@*.(@@ .   \^^^/' (  ^   \b)))>>        .'         `,				    /\ 
+  ((@@).*@@ )@ )    `-'   ((   ^  ~)_          /             `,				   /@@\
+    (@@. (@@ ).           (((   ^    `\        |               `.			  <_ __>
+      (*.@*              / ((((        \        \      .         `.		      	 /|C S |\  
+                        /   (((((  \    \    _.-~\     Y,         ;		        //| 261|\\
+                      /   / (((((( \    \.-~   _.`" _.-~`,       ;		       // |Mstr| \\
+                     /   /   `(((((()    )    (((((~      `,     ;		      +-  / /\ \  -+
+                   _/  _/      `"""/   /'                  ;     ;			 / /  \ \
+                _.-~_.-~           /  /'                _.-~   _.'			/ /    \ \
+              ((((~~              / /'              _.-~ __.--~			       (  }    {  )
+                                 ((((          __.-~ _.-~				,.,.-=..;-
+                                             .'   .~~
+                                             :   ,'
+                                             ~~~~~
